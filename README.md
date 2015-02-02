@@ -7,7 +7,7 @@ For any patch hosted online, you can generate an image accessible at a fixed url
 
 Simply use `https://enzienaudio.com/a/dave?fetch=<patchUrl>` replace `<patchUrl>` with the url of the patch you want to generate an image from.
 
-For example, here is a Pd patch hosted on a github repository [https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd](https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd) , the SVG rendered from that patch can be found there  [https://enzienaudio.com/a/dave?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd](https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd).
+For example, here is a Pd patch hosted on a github repository https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd , the SVG rendered from that patch can be found there  https://enzienaudio.com/a/dave?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd .
 
 
 Deploying your own instance
