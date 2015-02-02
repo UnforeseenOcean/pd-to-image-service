@@ -1,18 +1,14 @@
 {
-  "name": "patchrender",
+  "name": "pd-to-image-service",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "Sébastien Piquemal <sebpiq@gmail.com>",
   "dependencies": {
-    "express": "^4.11.1",
-    "gulp": "^3.8.10",
-    "pd-fileutils": "^0.3.1",
-    "debug": "^2.1.1",
-    "request": "^2.51.0"
+    "express": "4.11.x",
+    "gulp": "3.8.x",
+    "pd-fileutils": "0.3.x",
+    "debug": "2.1.x",
+    "request": "2.51.x",
+    "underscore": "1.7.x"
   }
 }
