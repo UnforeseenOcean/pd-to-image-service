@@ -13,7 +13,7 @@ There is only one url `/render?fetch=<patchUrl>` . Calling it will fetch the pd 
 Example usage
 --------------
 
-Here is an example of rendering the patch at [https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd](https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd) , SVG rendered from that patch [/render?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd](/render?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd).
+Here is an example of rendering the patch at [https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd](https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageInteger.pd) , SVG rendered from that patch [https://enzienaudio.com/a/dave?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageAbsoluteValue.pd](https://enzienaudio.com/a/dave?fetch=https://raw.githubusercontent.com/mhroth/ZenGarden/master/test/MessageAbsoluteValue.pd).
 
 
 Deploying
