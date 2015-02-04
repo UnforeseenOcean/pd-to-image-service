@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "4.11.x",
     "gulp": "3.8.x",
-    "pd-fileutils": "0.3.x",
+    "pd-fileutils": "git://github.com/sebpiq/pd-fileutils.git#master",
     "debug": "2.1.x",
     "request": "2.51.x",
     "underscore": "1.7.x"
