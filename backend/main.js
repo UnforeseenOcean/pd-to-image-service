@@ -19,13 +19,18 @@ app.route('/render').get(function(req, res) {
     res.end('Missing query param "fetch".')
   } else {
 
-    request.get(fetch, function(err, fetchRes) {
+    request.get({ uri: fetch, rejectUnauthorized: false }, function(err, fetchRes) {
+      debugger
       // Handle errors
       if (err) {
         if (err.code === 'ENOTFOUND') {
           res.status(400)
           res.end('Address "' + fetch + '" not found')
-        } else throw err
+        } else {
+          console.error(err)
+          res.status(500)
+          return res.end('Error fetching the patch :\n' + err)
+        }
       } else if (fetchRes.statusCode === 200) {
         // Catch parsing errors
         try {
